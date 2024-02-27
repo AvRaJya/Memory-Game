@@ -1,0 +1,32 @@
+#game div {
+    border: 6px groove rgb(162, 225, 190);
+    width: 15%;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+  }
+
+    body  {
+
+
+    background-color: aliceblue;
+  }
+
+
+  .flip {
+
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transform:rotateY(180deg);
+  }
+
+  .flipback {
+
+    transition-delay: 0.5s;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in;
+    transform:rotateY(181deg);
+  }
+
+  
